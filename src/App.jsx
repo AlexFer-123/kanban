@@ -5,10 +5,9 @@ import './App.css'
 import './assets/scss/global.css'
 
 function App() {
-
   return (
     <>
-      <Routes/>
+      <Routes />
     </>
   )
 }

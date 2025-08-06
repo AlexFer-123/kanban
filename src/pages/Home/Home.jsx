@@ -1,10 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-
-const Home = () =>{
-
-  console.error('Home component loaded');
+const Home = () => {
+  console.error('Home component loaded')
   return (
     <div>
       <h1>Página Inicial</h1>
@@ -19,7 +17,7 @@ const Home = () =>{
         </ul>
       </nav>
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home

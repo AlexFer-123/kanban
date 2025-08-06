@@ -1,9 +1,9 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Home from "../pages/Home/Home.jsx";
-import Login from "../pages/Login/Login.jsx";
-import Dashboard from "../pages/Dashboard/Dashboard.jsx";
+import Home from '../pages/Home/Home.jsx'
+import Login from '../pages/Login/Login.jsx'
+import Dashboard from '../pages/Dashboard/Dashboard.jsx'
 
 const AppRoutes = () => (
   <BrowserRouter>
@@ -13,6 +13,6 @@ const AppRoutes = () => (
       <Route path="/dashboard" element={<Dashboard />} />
     </Routes>
   </BrowserRouter>
-);
+)
 
-export default AppRoutes;
+export default AppRoutes
