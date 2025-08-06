@@ -9,10 +9,10 @@ const Home = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/login">Sobre</Link>
+            <Link to="/login">Login</Link>
           </li>
           <li>
-            <Link to="/dashboard">Usuario</Link>
+            <Link to="/dashboard">Dashboard</Link>
           </li>
         </ul>
       </nav>
